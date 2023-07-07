@@ -1,0 +1,116 @@
+/* Reset default styles */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Header styles */
+header {
+  background-image: url("image/codrity.jpg");
+  background-size: 500;
+ color: #fff;
+  padding: 10;
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.header-content h2 {
+  font-size: 24px;
+}
+
+/* Section styles */
+section {
+  padding: 10;
+}
+
+section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+section img {
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+section ul {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+section ul li {
+  margin-bottom: 10px;
+}
+
+/* Education section styles */
+.bg-education {
+  /*background-image: url("image/me.JPG");
+  background-size: cover;*/
+  color: #1c1c52;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #1c1c52;
+}
+
+/* Skills section styles */
+.bg-skills {
+  /*background-image: url("image/skill.jpg");
+  background-size: cover;*/
+  color: #1c1c52;
+  padding: 10px;
+}
+
+/* Projects section styles */
+.bg-projects {
+  /*background-image: url("image/pr.jpg");
+  background-size: cover;*/
+  color: #1c1c52;
+  padding: 10px;
+}
+
+/* Contact section styles */
+.bg-contact {
+  /*background-image: url("image/contact-background.jpg");
+  background-size: cover;*/
+  color: #1c1c52;
+  padding: 10px;
+}
+
+footer {
+  background-color: #333;
+  color: #1c1c52;
+  text-align: center;
+  padding: 20px;
+}
